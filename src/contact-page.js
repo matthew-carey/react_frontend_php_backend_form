@@ -20,7 +20,8 @@ export default class ContactPage extends Component {
     inputName: '',
     isCaptchaValid: false,
     isErrorShown: false,
-    isFormValid: false
+    isFormValid: false,
+    isFormSubmitted: false
   }
 
   // Handle visitor's interaction with inputs
@@ -78,12 +79,12 @@ export default class ContactPage extends Component {
       $.ajax({
         data: this.state,
         type: 'POST',
-        url: '/mailer.php',
+        url: 'mailer.php',
         success: function(data) {
           console.info(data)
         },
         error: function(xhr, status, err) {
-          console.error(status, err.toString())
+          console.log(status, err.toString())
         }
       })
 
@@ -97,11 +98,13 @@ export default class ContactPage extends Component {
         inputName: '',
         isCaptchaValid: false,
         isErrorShown: false,
-        isFormValid: false
+        isFormValid: false,
+        isFormSubmitted: true
       })
     } else {
       // Show error message
       this.setState({
+        isFormValid: false,
         isErrorShown: true
       })
     }
@@ -182,11 +185,13 @@ export default class ContactPage extends Component {
             </fieldset>
           )}
 
+          {!this.state.isFormSubmitted && (
           <fieldset>
             <button onClick={this.handleFormSubmit} className="btn">
               Send
             </button>
           </fieldset>
+          )}
         </form>
       </div>
     )

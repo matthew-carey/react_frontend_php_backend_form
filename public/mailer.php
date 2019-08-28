@@ -1,4 +1,5 @@
 <?php
+/* This file should be in the /public/ directory so that it's included in the final /build/ directory */
 if($_SERVER["REQUEST_METHOD"]=="POST"){
   $sendTo = "matthew.w.carey@gmail.com";
 
