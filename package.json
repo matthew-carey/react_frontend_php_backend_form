@@ -1,0 +1,37 @@
+{
+  "name": "react_frontend_php_backend_form",
+  "version": "1.0.0",
+  "description": "Form with React front-end, Google reCaptcha v3 validation, and PHP back-end",
+  "author": "Matt Carey",
+  "license": "ISC",
+  "keywords": [
+    "react",
+    "php",
+    "curl",
+    "recaptcha",
+    "form"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthew-carey/react_frontend_php_backend_form.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matthew-carey/react_frontend_php_backend_form/issues"
+  },
+  "homepage": "https://github.com/matthew-carey/react_frontend_php_backend_form#readme",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-recaptcha": "^2.3.10",
+    "react-scripts": "2.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}
