@@ -1,7 +1,7 @@
 {
   "name": "react_frontend_php_backend_form",
   "version": "1.0.0",
-  "description": "Form with React front-end, Google reCaptcha v3 validation, and PHP back-end",
+  "description": "Form with React front-end, Google reCaptcha v2 validation, and PHP back-end",
   "author": "Matt Carey",
   "license": "ISC",
   "keywords": [
