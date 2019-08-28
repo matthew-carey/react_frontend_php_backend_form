@@ -164,7 +164,7 @@ export default class ContactPage extends Component {
           <fieldset>
             <Recaptcha
               onloadCallback={this.onCaptchaLoad}
-              sitekey="6LdxfLUUAAAAAPfEFACbqg6nTHge--WkOaq9_rU-"
+              sitekey="6LfofLUUAAAAAEBsVGKDp9yQDeHfgVq0qI8U7e4T"
               render="explicit"
               verifyCallback={this.onCaptchaVerify}
             />
