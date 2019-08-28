@@ -3,6 +3,12 @@
 # dependencies
 /node_modules
 
+# build files
+/build
+
+#private files
+/private
+
 # misc
 .DS_Store
 

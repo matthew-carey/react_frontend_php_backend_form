@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/matthew-carey/react_frontend_php_backend_form/issues"
   },
-  "homepage": "https://github.com/matthew-carey/react_frontend_php_backend_form#readme",
+  "homepage": "https://mwcarey.com/react-form",
   "private": true,
   "main": "index.js",
   "dependencies": {

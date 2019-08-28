@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/matthew-carey/react_frontend_php_backend_form/precache-manifest.bcdfd72233b45b457dbd384f4a45c126.js"
+  "/react-form/precache-manifest.7bf337f396d1bd4d81531c64c4f18da4.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/matthew-carey/react_frontend_php_backend_form/index.html", {
+workbox.routing.registerNavigationRoute("/react-form/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
