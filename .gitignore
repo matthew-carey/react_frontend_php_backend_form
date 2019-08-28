@@ -3,11 +3,8 @@
 # dependencies
 /node_modules
 
-# build files
+# build files - use 'npm run build' script to create your own copy of this directory and compiled files
 /build
-
-#private files
-/private
 
 # misc
 .DS_Store
